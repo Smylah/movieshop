@@ -1,0 +1,22 @@
+$primaryColour: #00040a;
+
+nav {
+  background: $primaryColour;
+  color: white;
+  font-size: 56px;
+  font-weight: 500;
+  font-family: "dancing script";
+  .text {
+    font-size: 12px;
+    font-family: "poppins";
+    font-weight: 100;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    font-size: 35px;
+    .text {
+      font-size: 10px;
+    }
+  }
+}

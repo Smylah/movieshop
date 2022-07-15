@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  background: #00040a;
+  height: 8vh;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px;
+  }
+  a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    height: 6vh;
+    ul {
+      gap: 10px;
+    }
+    a {
+      font-size: 0.8rem;
+    }
+  }
+}

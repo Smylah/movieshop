@@ -1,0 +1,22 @@
+nav {
+  background: #00040a;
+  color: white;
+  font-size: 56px;
+  font-weight: 500;
+  font-family: "dancing script";
+}
+
+nav .text {
+  font-size: 12px;
+  font-family: "poppins";
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  nav {
+    font-size: 35px;
+  }
+  nav .text {
+    font-size: 10px;
+  }
+}
