@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/movieshop/static/css/main.f4a5959f.css",
-    "main.js": "/movieshop/static/js/main.d1043671.js",
+    "main.js": "/movieshop/static/js/main.41c96a48.js",
     "index.html": "/movieshop/index.html",
     "main.f4a5959f.css.map": "/movieshop/static/css/main.f4a5959f.css.map",
-    "main.d1043671.js.map": "/movieshop/static/js/main.d1043671.js.map"
+    "main.41c96a48.js.map": "/movieshop/static/js/main.41c96a48.js.map"
   },
   "entrypoints": [
     "static/css/main.f4a5959f.css",
-    "static/js/main.d1043671.js"
+    "static/js/main.41c96a48.js"
   ]
 }
