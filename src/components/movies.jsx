@@ -121,7 +121,7 @@ const Movies = () => {
           <div className="loading-background">
             <i class="fa-solid fa-trash-can fa-bounce" />
             sorry, your search didnt return any match.
-            <a href="#">go back</a>
+            <a href="">go back</a>
           </div>
         ) : (
           <Movielist />
