@@ -23,9 +23,15 @@ const Navbar = () => {
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="search by name, year"
+              placeholder="search by name..."
             />
-            <button style={{ borderRadius: "0 20px 20px 0" }}>
+            <button
+              style={{
+                borderRadius: "0 20px 20px 0",
+                marginLeft: "-30px",
+                background: "white ",
+              }}
+            >
               <i class="fa-solid fa-magnifying-glass" />
             </button>
           </form>
