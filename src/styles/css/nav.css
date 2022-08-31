@@ -28,9 +28,9 @@ nav .form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav .form-container .form {
@@ -95,41 +95,64 @@ nav .form-container label {
 }
 
 @media (max-width: 768px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   nav .logo-container {
     font-size: 35px;
+  }
+  nav .logo-container .logo {
+    text-align: center;
   }
   nav .logo-container .text {
     font-size: 10px;
   }
+  nav .form-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   nav .form-container .form {
     padding: 5px 0;
     gap: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   nav .form-container .form form input,
-  nav .form-container .form form button,
-  nav .form-container .form form select {
-    padding: 0;
-    font-size: 10px;
+  nav .form-container .form form button {
+    padding: 0 5px;
+    font-size: 14px;
   }
   nav .form-container .form form input::-webkit-input-placeholder,
-  nav .form-container .form form button::-webkit-input-placeholder,
-  nav .form-container .form form select::-webkit-input-placeholder {
-    font-size: 10px;
+  nav .form-container .form form button::-webkit-input-placeholder {
+    font-size: 14px;
   }
   nav .form-container .form form input:-ms-input-placeholder,
-  nav .form-container .form form button:-ms-input-placeholder,
-  nav .form-container .form form select:-ms-input-placeholder {
-    font-size: 10px;
+  nav .form-container .form form button:-ms-input-placeholder {
+    font-size: 14px;
   }
   nav .form-container .form form input::-ms-input-placeholder,
-  nav .form-container .form form button::-ms-input-placeholder,
-  nav .form-container .form form select::-ms-input-placeholder {
-    font-size: 10px;
+  nav .form-container .form form button::-ms-input-placeholder {
+    font-size: 14px;
   }
   nav .form-container .form form input::placeholder,
-  nav .form-container .form form button::placeholder,
-  nav .form-container .form form select::placeholder {
-    font-size: 10px;
+  nav .form-container .form form button::placeholder {
+    font-size: 14px;
+  }
+  nav .form-container .form form select,
+  nav .form-container .form form label {
+    display: none;
   }
   nav .form-container label {
     font-size: 10px;

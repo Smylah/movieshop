@@ -1,7 +1,7 @@
 @import "./nav.scss";
 
 .movie-container {
-  min-height: 67vh;
+  min-height: 67.35vh;
   display: flex;
   justify-content: center;
   margin: 15px 0;
@@ -111,9 +111,20 @@
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1156px) {
+  .movie-container {
+    .movielist {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      width: 100vw;
+    }
+  }
+}
+
+@media (max-width: 700px) {
   .movie-container {
     margin: 3vh 10vw;
+    min-height: 72.6vh;
 
     .movielist {
       grid-template-columns: repeat(2, 1fr);

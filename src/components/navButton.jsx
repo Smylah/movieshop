@@ -19,7 +19,7 @@ const NavButtons = () => {
 
           <a href="#" onClick={() => setPage(page - 1)}>
             <i class="fa-solid fa-angle-left" />
-            <span> Next </span>
+            <span> prev </span>
           </a>
 
           <h4>
@@ -27,7 +27,7 @@ const NavButtons = () => {
           </h4>
 
           <a href="#" onClick={() => setPage(page + 1)}>
-            <span> Last </span>
+            <span> next </span>
             <i class="fa-solid fa-angle-right" />
           </a>
 

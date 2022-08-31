@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className="form-container">
         <div className="form radius">
-          <form onSubmit={handleSubmit}>
+          <form className="display" onSubmit={handleSubmit}>
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
